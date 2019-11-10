@@ -5,7 +5,8 @@ USER root
 WORKDIR /
 RUN /bin/cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
   && echo 'Asia/Shanghai' >/etc/timezone
+
 RUN apt-get update
-RUN apt-get install -y g++ make
+RUN apt-get install python-minimal
 
 RUN npm install nodejieba
