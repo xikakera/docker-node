@@ -2,7 +2,7 @@
 
 ## nodejiaba
 
-使用nodejs 12.13 长支持版 : 12.13.0-stretch-slim
+使用nodejs 12.13 长支持版 : 12.13.0-buster-slim
 
 设置默认时区 ***上海***
 
