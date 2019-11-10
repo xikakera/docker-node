@@ -8,5 +8,6 @@ RUN /bin/cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
 
 RUN apt-get update
 RUN apt-get install -y python-minimal
+RUN apt-get install -y g++ make
 
 RUN npm install nodejieba
