@@ -1,4 +1,4 @@
-FROM 12.13.0-buster-slim
+FROM node:12.13.0-buster-slim
 MAINTAINER      xikakera "xikakera@gmail.com"
 
 USER root
